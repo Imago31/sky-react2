@@ -1,7 +1,9 @@
+/* eslint-disable import/no-unresolved */
+/* eslint-disable import/extensions */
 import './App.css'
 import StudCard from './StudCard'
-// import StudCardClass from './StudCardClass'
 import CurCount from './CurCount'
+import AppLesson3 from './AppLesson3'
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <StudCard text="Препод" name="Евгений" />
       <StudCard text="Студент" name="Кирилл" />
       <CurCount/>
+      <AppLesson3/>
     </div>
   )
 }
